@@ -1,0 +1,19 @@
+.dashboard { display: flex; height: 100vh; }
+.side-menu { width: 200px; background: #eee; }
+.main-content { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    gap: 15px; 
+    padding: 15px;
+}
+
+.top-row, .bottom-row { 
+    display: flex; 
+    gap: 15px; 
+}
+
+.top-row .item { flex: 1; height: 100px; background: #00f2fe; }
+
+.bottom-row .large { flex: 2; height: 200px; background: #764ba2; }
+.bottom-row .small { flex: 1; height: 200px; background: #1a252f; }

@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: #3498db;
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 300px; 
+    height: 200px;
+    border: 1px solid #ccc;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer {
+    width: 100%;
+    background: #333;
+    color: #fff;
+}
